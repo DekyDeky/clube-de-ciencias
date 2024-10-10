@@ -1,0 +1,38 @@
+.cabecalho {
+    background-color: var(--header_bg_color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    padding: 0 350px;
+}
+
+.cabecalho_item {
+    color: var(--header_text_color);
+    text-decoration: none;
+    font-size: var(--font-size);
+    text-align: center;
+    font-weight: var(--header_text_weight);
+
+    width: 180px;
+}
+
+.cabecalho_item:hover {
+    color: var(--header_text_hover_color);
+    transition: .5s;
+}
+
+.cabecalho_logo {
+    background: url("/imgs/IFPR-TB.svg") no-repeat center;
+    background-size: contain;
+    width: 180px;
+    height: 125px;
+}
+
+.cabecalho_logo:hover {
+    background-image: url("/imgs/IFPR-TB-2.svg");
+    transition: .5s;
+}
+

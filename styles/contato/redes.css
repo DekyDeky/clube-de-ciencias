@@ -1,0 +1,20 @@
+.redes {
+    width: 100%;
+}
+
+.rede {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.rede-logo {
+    width: 50px;
+    filter: var(--svg-colors)
+}
+
+.rede-nome {
+    font-size: var(--contato-text-size);
+}

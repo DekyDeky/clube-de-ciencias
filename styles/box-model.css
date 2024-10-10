@@ -1,0 +1,11 @@
+.boxModel {
+    margin: 150px;
+    padding: 200px;
+
+    border: 10px dashed red;
+    border-top: 10px solid blue;
+    border-bottom: 10px dotted green;
+
+    text-align: center;
+    font-size: 100px;
+}

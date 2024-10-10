@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube de Ciências - Contato</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/cabecalho.css">
+
+    <link rel="stylesheet" href="styles/contato/contato.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <a href="blog.html" class="cabecalho_item">Blog</a>
+        <a href="projetos.html" class="cabecalho_item">Projetos</a>
+        <a href="boxModel.html" class="cabecalho_logo"></a>
+        <a href="sobreNos.html" class="cabecalho_item">Sobre nós</a>
+        <a href="contato.html" class="cabecalho_item">Contatos</a>
+    </header>
+
+    <main class="main">
+
+        <section class="redes">
+
+            <h3 class="main-title">Nossas Redes</h3>
+
+            <div class="rede">
+                <img src="imgs/contatos/instagram-logo.svg" alt="Logo do Instagram" class="rede-logo">
+                <p class="rede-nome">@clubedecienciasTB</p>
+            </div>
+
+            <div class="rede">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="Logo do X ou Twitter" class="rede-logo">
+                <p class="rede-nome">@clubedecienciasTB</p>
+            </div>
+
+            <div class="rede">
+                <img src="imgs/contatos/facebook-logo.svg" alt="Logo do facebook" class="rede-logo">
+                <p class="rede-nome">@clubedecienciasTB</p>
+            </div>
+
+        </section>
+
+        <div class="contato-line"></div>
+
+        <form method="post" class="form-contato">
+            <h3 class="main-title">Envie uma mensagem para nós!</h3>
+
+            <label for="nome" class="contato-label">Nome Completo: </label>
+            <input name="nome" type="text" class="contato-input" required>
+
+            <label for="email" class="contato-label">Email: </label>
+            <input name="email" type="email" class="contato-input" required> 
+
+            <label for="mensagem" class="contato-label">Insira sua mensagem: </label>
+            <textarea name="mensagem" class="contato-input contato-mensagem" id="mensagem"></textarea>
+
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@import url(redes.css);
+@import url(form-contato.css);
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: calc(100vh - 125px - 100px);
+
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: var(--font-size);
+    margin-bottom: 25px;
+}
+
+.contato-line {
+    background-color: white;
+    height: 100%;
+    width: 5px;
+}
